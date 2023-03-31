@@ -1,0 +1,60 @@
+.toolbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+}
+
+.toolbox__center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toolbox__right{
+  position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.toolbox__right button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-appearance: none;
+  max-width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: normal;
+  color: #ffffff;
+  min-width: 90px;
+  padding: 10px;
+}
+.toolbox__right button svg {
+  font-size: 2.5rem;
+  width: 107px;
+ 
+}
+.toolbox__right button:hover {
+  background-color:transparent;
+}
+
+#btnHangup {
+  color: red;
+}
+
+.participants_info {
+  display: block !important;
+}
+#participants_info {
+  bottom: 50px;
+  position: absolute;
+  background: white;
+  left: 500px;
+}
